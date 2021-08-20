@@ -16,36 +16,111 @@
     <!-- Gridlex stylesheet -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
 
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;400;600&family=Roboto:wght@700;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;600;800;900&display=swap" rel="stylesheet"> 
 
     <!-- Link to my stylesheet -->
     <link rel="stylesheet" type="text/css" href="/style.css" />
 </head>
 
 <body>
-    <!-- Header Section -->
-<section class='bg-image tall-90'>
+    <!-- HEADER SECTION -->
+<!-- Header Section -->
+<section class='grid-spaceAround bg-image tall-90 '>
+   
+    <nav class='col-12 center uppercase padded-1'>
+        <a class='padded-1' href='#'>sucurcales</a>
+        <a class='padded-1' href='#'>menu</a>
+        <a class='padded-1' href='#'>sobre Pork Belly</a>
+        <a class='padded-1' href='#'>Galeria</a>
+        <a class='padded-1' href='#'>Contacto</a>
+        <a class='feature-color padded-1' href='#'>Reservas</a>
+    </nav>
 
-    <div class='grid padded'>
-        <nav class='col-5 center uppercase padded-1'>
-            <a class='padded-1' href='#'>sucurcales</a>
-            <a class='padded-1' href='#'>menu</a>
-            <a class='padded-1' href='#'>sobre PB</a>
-        </nav>
-        <div class='col-2 bg-knife'></div>
-        <nav class='col-5 center uppercase padded-1'>
-            <a class='padded-1' href='#'>Galeria</a>
-            <a class='padded-1' href='#'>Contacto</a>
-            <a class='feature-color padded-1' href='#'>Reservas</a>
-        </nav>
+    <div class='col-3 center'></div>
+    <div class='col-6 center'>
+        <img src='/images/logo/porkbelly-logo-transparent-white.png' image-size='max-height:50vh;'>
+    </div>
+    <div class='col-3 center'></div>
+</section>
+
+<!-- Locations Section -->
+<section class='grid'>
+    <div class='col-6 bg-dark padded-1'>
+        <h1 class='padded-1 big-text'>Pork Belly Restaurant</h1>
+        <a href='https://g.page/pork-belly-sma?share' target='_blank' class='padded-1'>Stirling Dickinson 10</a>
+        <p class='padded-1'>San Miguel de Allende</p>
+        <a class='padded-1' href='tel:+524151048415'>Tel: 415 104 8415</a>
     </div>
 
+    <div class='col-6 bg-medium padded-1 right'>
+        <h1 class='padded-1 big-text'>Pork Belly Tacos & Cocktails</h1>
+        <a href='https://goo.gl/maps/zCDwJt3u6CZM2EE96' target='_blank' class='padded-1'>Cuna Allende 15</a>
+        <p class='padded-1'>San Miguel de Allende</p>
+        <a class='padded-1' href='tel:+524151549803'>Tel: 415 154 9803</a>
+    </div>
+</section>
+
+<!-- Images section -->
+<section class='grid bg-light padded-1'>
+    <div class='col-3 padded-1'>
+        <div class='bg-image portrait'></div>
+    </div>
+    <div class='col-3 padded-1'>
+        <div class='bg-image portrait'></div>
+    </div>
+    <div class='col-3 padded-1'>
+        <div class='bg-image portrait'></div>
+    </div>
+    <div class='col-3 padded-1'>
+        <div class='bg-image portrait'></div>
+    </div>
+</section>
 
 
+<!-- Section text and image -->
 
+<section class='grid-middle padded bg-medium'>
+    <div class='col-5 padded'>
+        <h2 class='big-text padded-b-1'>Texto llamativo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo laudantium eligendi quod vel cupiditate architecto cumque voluptatum quasi ab perspiciatis, laboriosam assumenda atque at corporis ratione impedit sapiente eveniet repellendus.</p>
+    </div>
+    <div class='col-7 bg-image tall-50' ></div>
+
+</section>
+
+<!-- Footer Section -->
+
+<section class='bg-dark grid-spaceBetween-middle'>
+    <div class='col-3-middle'>
+        <img src='/images/logo/porkbelly-logo-transparent-white.png'>
+    </div>
+    <div class='col-4-middle padded-1'>
+        <p>Pork Belly Restaurant <br>
+        Stirling Dickinson 10<br>
+        San Miguel de Allende<br>
+        Tel: 415 104 8415</p>
+    </div>
+    <div class='col-4-middle padded-1'>
+        <p>Pork Belly Tacos & Cocktails <br>
+        Cuna Allende 15<br>
+        San Miguel de Allende<br>
+        Tel: 415 154 9803</p>
+    </div>
+    <div class='col-12 center bg-light'>
+        <a href='https://www.facebook.com/PorkBellysma' target='_blank'  >  <i class="fab fa-facebook padded-1"></i></a> 
+        <a href='https://www.instagram.com/porkbelly_sma/?hl=es' target='_blank' > <i class="fab fa-instagram padded-1"></i></a> 
+        <a href='https://wa.me/524151006132'> <i class="fab fa-whatsapp padded-1"></i></a>
+    </div>
+</section>
+
+<section class='grid bg-light'>
+    <div class='col-12 center subtle'>Copyright 2021</div>
 </section>
 </body>
 

@@ -3,25 +3,27 @@ layout: default
 title: Pork Belly Restaurant - San Miguel de Allende
 ---
 
+<!-- HEADER SECTION -->
+{% include header.html %}
 
-<!-- Header Section -->
-<section class='bg-image tall-90'>
+<!-- Locations Section -->
+{% include locations.html %}
 
-    <div class='grid padded'>
-        <nav class='col-5 center uppercase padded-1'>
-            <a class='padded-1' href='#'>sucurcales</a>
-            <a class='padded-1' href='#'>menu</a>
-            <a class='padded-1' href='#'>sobre PB</a>
-        </nav>
-        <div class='col-2 bg-knife'></div>
-        <nav class='col-5 center uppercase padded-1'>
-            <a class='padded-1' href='#'>Galeria</a>
-            <a class='padded-1' href='#'>Contacto</a>
-            <a class='feature-color padded-1' href='#'>Reservas</a>
-        </nav>
+<!-- Images section -->
+{% include images.html %}
+
+
+<!-- Section text and image -->
+
+<section class='grid-middle padded bg-medium'>
+    <div class='col-5 padded'>
+        <h2 class='big-text padded-b-1'>Texto llamativo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo laudantium eligendi quod vel cupiditate architecto cumque voluptatum quasi ab perspiciatis, laboriosam assumenda atque at corporis ratione impedit sapiente eveniet repellendus.</p>
     </div>
-
-
-
+    <div class='col-7 bg-image tall-50' ></div>
 
 </section>
+
+<!-- Footer Section -->
+
+{% include footer.html %}
