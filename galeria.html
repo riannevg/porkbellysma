@@ -1,0 +1,52 @@
+---
+layout: default
+title: Pork Belly Restaurant - San Miguel de Allende
+galeria:
+    - tamano: col-6_sm-12
+      forma: square
+      background_image: /images/porkbelly-restaurant-sma-10.jpg
+    - tamano: col-6_sm-12
+      forma: square
+      background_image: /images/porkbelly-restaurant-sma-10.jpg
+    - tamano: col-3_sm-12
+      forma: portrait
+      background_image: /images/porkbelly-restaurant-sma-10.jpg
+    - tamano: col-3_sm-12
+      forma: square
+      background_image: /images/porkbelly-restaurant-sma-10.jpg
+    - tamano: col-3_sm-12
+      forma: landscape
+      background_image: /images/porkbelly-restaurant-sma-10.jpg
+    - tamano: col-3_sm-12
+      forma: landscape
+      background_image: /images/porkbelly-restaurant-sma-10.jpg
+  
+---
+
+<!-- HEADER SECTION -->
+{% include header.html %}
+
+<!-- Locations Section -->
+{% include locations.html %}
+
+
+<!-- Galeria section -->
+
+<section class='grid padded bg-light'>
+
+{% for item in page.galeria %}
+
+    <div class='{{item.tamano}}'>
+        <div class='bg-image {{item.forma}}' style="background-image:url('{{item.background_image}}');"  ></div>
+    </div>
+
+    {% endfor %}
+
+</section>
+
+
+
+
+
+
+{% include footer.html %}
