@@ -1,0 +1,13 @@
+_select_data:
+  tamanos:
+    - col-12: 1 imagen
+    - col-6: 2 imagen
+    - col-4: 23 Imagenes 
+    - col-3: 4 Imagenes
+
+formas:
+    - square: imagen cuadrado
+    - portrait: imagen vertical
+    - landscape: imagen horizontal
+
+    
