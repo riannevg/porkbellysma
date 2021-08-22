@@ -74,7 +74,7 @@ img{max-width:100%;}
       line-height: 1.5;
   }
 
- .big-text:{font-size:2rem;}
+ .big-text{font-size:2rem;}
 
  nav a{
     color: var(--text-color);

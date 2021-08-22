@@ -1,7 +1,8 @@
 ---
+layout:default
 entradas:
     - platillo: Guacamole con totopos
-      descripcion: 
+      descripcion: Solo una prueba
       precio: 80
     - platillo: Ensalada de chayote
       descripcion: Segmentos de naranja, oregano, cilantro y semillas de calabaza
@@ -33,3 +34,114 @@ cocktails
       descripcion: Tequila,campari,spiced hibiscus oleo sacarum, aquafaba and coffee salt
       precio: 140      
 ---
+
+
+<section class='grid padded bg-dark'>
+    <div class='col-12'>
+        <h3 class='center uppercase'>menu</h3>
+    </div>
+
+    <div class='col-6_sm-12 padded-1'>
+        <h3>Entradas & Platillos para compartir</h3>
+        
+        <div class='grid padded-1 padded-l-0'>
+            {% for item in page.entradas %}
+            <div class='col-10'>
+                <p>{{item.platillo}}</p>             
+            </div>
+            <div class='col-2'>
+                <p>${{item.precio}}</p>
+            </div>
+          <div class='col-12'>
+              <p>{{item.descripcion}}</p>
+          </div>
+          {% endfor %}
+        </div>
+       
+
+        <h3 class='medium-text'>tapas.</h3>
+        <div class='grid padded-1 padded-l-0'>
+            <div class='col-10'>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>             
+            </div>
+            <div class='col-2'>
+                <p>$20</p>
+            </div>
+            <div class='col-10'>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>             
+            </div>
+            <div class='col-2'>
+                <p>$20</p>
+            </div>
+            <div class='col-10'>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>             
+            </div>
+            <div class='col-2'>
+                <p>$20</p>
+            </div>
+            <div class='col-10'>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>             
+            </div>
+            <div class='col-2'>
+                <p>$20</p>
+            </div>
+        </div>
+    </div>
+        
+
+        <div class='col-6_sm-12 padded-1'>
+        <h3 class='medium-text'>classics.</h3>
+            <div class='grid padded-1 padded-l-0'>
+            <div class='col-10'>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>             
+            </div>
+            <div class='col-2'>
+                <p>$20</p>
+            </div>
+            <div class='col-10'>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>             
+            </div>
+            <div class='col-2'>
+                <p>$20</p>
+            </div>
+            <div class='col-10'>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>             
+            </div>
+            <div class='col-2'>
+                <p>$20</p>
+            </div>
+        </div>
+
+        <h3 class='medium-text'>negronis.</h3>
+        <div class='grid padded-1 padded-l-0'>
+            <div class='col-10'>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>             
+            </div>
+            <div class='col-2'>
+                <p>$20</p>
+            </div>
+            <div class='col-10'>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>             
+            </div>
+            <div class='col-2'>
+                <p>$20</p>
+            </div>
+        </div>
+
+        <h3 class='medium-text'>signature.</h3>
+        <div class='grid padded-1 padded-l-0'>
+            <div class='col-10'>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>             
+            </div>
+            <div class='col-2'>
+                <p>$20</p>
+            </div>
+            <div class='col-10'>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>             
+            </div>
+            <div class='col-2'>
+                <p>$20</p>
+            </div>
+        </div>
+       </div>
+    </section>
