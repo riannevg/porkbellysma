@@ -1,6 +1,13 @@
 ---
 layout: default
 title: Pork Belly Restaurante - San Miguel de Allende
+entradas:
+ - platillo: Guacamole con totopos
+   descripcion: 
+   precio: 80
+ - platillo: Ensalada de chayote
+   descripcion: Segmentos de naranja, oregano, cilantro y semillas de calabaza
+   precio: 130
 ---
 
 {% include header.html %}
@@ -24,4 +31,25 @@ title: Pork Belly Restaurante - San Miguel de Allende
 
 <!-- Menu Section -->
 
-{% include menu-restaurante.html %}
+<section class='grid padded bg-dark'>
+    <div class='col-12'>
+        <h3 class='center uppercase'>menu</h3>
+    </div>
+
+    <div class='col-6_sm-12 padded-1'>
+        <h3>Entradas & Platillos para compartir</h3>
+        
+        <div class='grid padded-1 padded-l-0'>
+            {% for item in page.entradas %}
+            <div class='col-10 padded-0'>
+                <p>{{item.platillo}}</p>             
+            </div>
+            <div class='col-2 padded-0'>
+                <p>${{item.precio}}</p>
+            </div>
+          <div class='col-10 padded-b-1'>
+              <p>{{item.descripcion}}</p>
+          </div>
+          {% endfor %}
+        </div>
+
