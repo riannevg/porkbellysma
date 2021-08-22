@@ -14,10 +14,10 @@
     box-sizing: border-box;
 }
 
-[class*="grid-"]{padding:0;
-margin:0;}
-[class*="col-"]{padding:0;
-margin:0;}
+[class*='grid']{
+    padding:0;
+    margin:0;
+}
 
 img{max-width:100%;}
 
@@ -66,7 +66,7 @@ img{max-width:100%;}
     font-weight:600;
   }
 
-  h2{
+ h2{
       font-size:3rem;
   }
 
@@ -79,7 +79,7 @@ img{max-width:100%;}
  nav a{
     color: var(--text-color);
     text-decoration:none;
-    font-size:1.5rem;
+    font-size:1rem;
  }
 i{
     font-size:2rem;
@@ -94,7 +94,7 @@ i{
 
  nav a:hover{
      /* color:var(--medium); */
-     border-bottom:3px solid;
+     border-bottom:2px solid;
  }
 
 .uppercase{
