@@ -1,0 +1,41 @@
+---
+layout: default
+title: Sobre Pork Belly Restaurant - San Miguel de Allende
+fotos:
+    - bg_image: /images/porkbelly-restaurant-sma-34.jpg
+    - bg_image: /images/porkbelly-restaurant-sma-10.jpg
+    - bg_image: /images/porkbelly-restaurant-sma-10.jpg
+    - bg_image: /images/porkbelly-restaurant-sma-34.jpg
+---
+
+<!-- HEADER SECTION -->
+{% include header.html %}
+
+<!-- Locations Section -->
+{% include locations.html %}
+
+<!-- Images Grid -->
+<section class='grid bg-light padded-1'>
+    {% for item in page.fotos limit:4 %}
+
+    <div class='col-3 padded-1'>
+        <div class='portrait' style="background-image: url('{{item.bg_image}}');"></div>
+    </div>
+    {% endfor %}
+</section>
+
+
+<!-- Section text and image -->
+
+<section class='grid-middle padded bg-medium'>
+    <div class='col-5 padded'>
+        <h2 class='big-text padded-b-1'>Texto llamativo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo laudantium eligendi quod vel cupiditate architecto cumque voluptatum quasi ab perspiciatis, laboriosam assumenda atque at corporis ratione impedit sapiente eveniet repellendus.</p>
+    </div>
+    <div class='col-7 bg-image tall-50' ></div>
+
+</section>
+
+<!-- Footer Section -->
+
+{% include footer.html %}

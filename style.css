@@ -133,4 +133,58 @@ i{
       min-height:5rem;
   }
 
+ /* Map Styles */
+
  
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+ 
+
+/* Form Styles */
+
+form input, form textarea{
+    width:100%;
+    margin:0.5rem 0;
+    padding:0.5rem;
+    border:2px solid var(--medium);
+    outline:none;
+    font-family:inherit;
+    font-size:0.9rem;  
+  }
+  
+  form input:focus, form textarea:focus{
+    border-color:var(--dark);
+  }
+  
+  textarea{
+    min-height:6rem;
+  }
+  
+  form label{
+    margin-top:1rem;
+    display:block;
+    color:#6C7A89;
+    font-weight:bold;
+  }
+  
+  form button{
+    background-color:#6C7A89;
+    color:white;
+    border:none;
+    padding:0.5rem 2rem;
+    letter-spacing:0.1rem;
+    margin: 0.5rem 0;
+  }
+  
