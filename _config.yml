@@ -6,8 +6,8 @@ _select_data:
     - col-3: 4 Imagenes
 
 formas:
-    - square: imagen cuadrado
-    - portrait: imagen vertical
-    - landscape: imagen horizontal
+    square: imagen cuadrado
+    portrait: imagen vertical
+    landscape: imagen horizontal
 
     
