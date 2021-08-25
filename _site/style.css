@@ -7,7 +7,7 @@
     --heading: 'Roboto Slab', sans-serif;
   }
 
-/* CSS RESET */
+/* 888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888CSS RESET */
 * {
     padding: 0;
     margin: 0;
@@ -22,7 +22,7 @@
 img{max-width:100%;}
 
  
-  /* REUSABLE UTILITY CLASSES */
+  /*88888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888 REUSABLE UTILITY CLASSES */
   
   .tall-50  {min-height:50vh;}
   .tall-60  {min-height:60vh;}
@@ -53,7 +53,7 @@ img{max-width:100%;}
   .center {text-align:center;}
   .right  {text-align:right;}
   
-  /* Typography & Link styles */
+  /*8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888 Typography & Link styles */
   
   body{
    color: var(--text-color);
@@ -115,7 +115,55 @@ i{
     color: #F7F4F2; 
     border: 2px solid #F7F4F2; }
 
-  /* Image styles */
+/*8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888 Hamburger Menu */
+
+.hamburger-button{
+    cursor:pointer;
+    padding: 0 0.5rem;
+    display:inline-block;
+    font-weight: 200;
+    font-size: 2.5rem;
+    line-height: 0.8;
+    position:fixed;
+    right:1rem;
+    top: 2.5rem;
+    z-index:2;
+}
+
+.hamburger-button.active{
+    color:white;
+}
+
+.menu{
+    display:none;
+    background-color:blue;
+    padding:5%;
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    text-align:center;
+}
+
+.menu a{
+    text-decoration: none;
+    color:inherit;
+    padding: 5vh 5%;
+    display:block;
+    font-weight:normal;
+    font-size:1.5rem;
+}
+
+
+
+
+
+
+
+
+
+  /*888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888 Image styles */
 
     .portrait {padding-bottom:125%;}
     .square {padding-bottom:85%;}
@@ -133,7 +181,7 @@ i{
       min-height:5rem;
   }
 
- /* Map Styles */
+ /*88888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888 Map Styles */
 
  
 .map-responsive{
@@ -152,39 +200,3 @@ i{
 }
  
 
-/* Form Styles */
-
-form input, form textarea{
-    width:100%;
-    margin:0.5rem 0;
-    padding:0.5rem;
-    border:2px solid var(--medium);
-    outline:none;
-    font-family:inherit;
-    font-size:0.9rem;  
-  }
-  
-  form input:focus, form textarea:focus{
-    border-color:var(--dark);
-  }
-  
-  textarea{
-    min-height:6rem;
-  }
-  
-  form label{
-    margin-top:1rem;
-    display:block;
-    color:#6C7A89;
-    font-weight:bold;
-  }
-  
-  form button{
-    background-color:#6C7A89;
-    color:white;
-    border:none;
-    padding:0.5rem 2rem;
-    letter-spacing:0.1rem;
-    margin: 0.5rem 0;
-  }
-  
