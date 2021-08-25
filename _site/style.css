@@ -134,7 +134,7 @@ i{
     color:white;
 }
 
-.menu{
+.hamburger-menu{
     display:none;
     background-color:blue;
     padding:5%;
@@ -146,7 +146,7 @@ i{
     text-align:center;
 }
 
-.menu a{
+.hamburger-menu a{
     text-decoration: none;
     color:inherit;
     padding: 5vh 5%;
