@@ -1,13 +1,13 @@
 _select_data:
   tamanos:
-    col-12: 1 imagen
-    col-6: 2 imagen
-    col-4: 23 Imagenes 
-    col-3: 4 Imagenes
+    col-12: 1 foto por linea
+    col-6: 2 fotos por linea
+    col-4: 3 fotos por linea 
+    col-3: 4 fotos por linea
 
 formas:
-    square: imagen cuadrado
-    portrait: imagen vertical
-    landscape: imagen horizontal
+  square: imagen cuadrado
+  portrait: imagen vertical
+  landscape: imagen horizontal
 
     
