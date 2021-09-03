@@ -1,4 +1,4 @@
-$('.hamburger-button').click(function)({
-    $('.hamburger-menu').fadeToggle(100);
+$('.hambuger-button').click(function(){
+    $('.mobile-menu').fadeToggle(100);
     $(this).toggleClass('active');
-});
+})
